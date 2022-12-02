@@ -18,8 +18,30 @@ export default function Home() {
       
       <Header />
 
-      
+      <div className="flex justify-between items-center
+      bg-yellow-400 border-y border-slate-800 py-24 lg:py-24">
+        <div className="lg:ml-32 mr-24 space-y-8">
+          <h1 className="text-6xl max-w-xl font-serif">
+            <span className="underline decoration-black decoration-4">
+            Abogados
+            </span>{" "}
+            Profesionales al alcance...ejemplo...
+          </h1>
+          <h2 className="lg:mr-80 font-serif">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia eaque numquam accusantium! Cumque odio quis officiis eius inventore nesciunt numquam, reiciendis quod, deserunt assumenda ipsam, dolore architecto distinctio nam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia eaque numquam accusantium! Cumque odio quis officiis eius inventore nesciunt numquam, reiciendis quod, deserunt assumenda ipsam, dolore architecto distinctio nam!
+            amet consectetur adipisicing elit. Quas quia eaque numquam accusantium! Cumque odio quis officiis eius inventore nesciunt numquam, reiciendis quod, deserunt assumenda ipsam, dolore architecto distinctio nam!
+            amet consectetur adipisicing elit. Quas quia eaque numquam accusantium! Cumque odio quis officiis eius inventore nesciunt numquam, reiciendis quod, deserunt assumenda ipsam, dolore architecto distinctio nam!
 
+          </h2>
+        </div>
+
+        <img
+        className="hidden md:inline-flex h-32 lg:h-64 mr-28"
+        src="https://4.bp.blogspot.com/-yEauQZMppGg/V456udMzCvI/AAAAAAAAAUU/UU6OdR_byrEQEmGKMocjKvWS_dAkOqOygCLcB/s1600/justicia%2Blogo.jpg"
+        alt=""
+        />  
+      </div>
     </div>
   )
 }

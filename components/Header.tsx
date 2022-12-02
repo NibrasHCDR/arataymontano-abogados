@@ -29,11 +29,6 @@ function Header() {
          rounded-full text-lg">Actualidad</h3>
          <h3 className="cursor-pointer hover:text-slate-800 hover:bg-yellow-400 px-4 py-1 
          rounded-full text-lg">Ejemplo</h3>
-         <h3 className="cursor-pointer hover:text-slate-800 hover:bg-yellow-400 px-4 py-1 
-         rounded-full text-lg">Ejemplo</h3>
-         <h3 className="cursor-pointer hover:text-slate-800 hover:bg-yellow-400 px-4 py-1 
-         rounded-full text-lg">Ejemplo</h3>
-        
     </div>
  </header>
   )
